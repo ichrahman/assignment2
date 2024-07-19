@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://kit.fontawesome.com/3c17794da8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,24 +27,93 @@
                             <li><a href="#">About</a></li>
                         </ul>
                     </nav>
+                    <div class="menu-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
             </div>
             <div class="hero-section">
-                <div>
+                <div class="hero-text">
                     <h1>Get body in <span>shape</span> & stay healthy</h1>
                     <p>A huge selection of health and fitness content, healthy recipes and transformation stories to
                         help
                         you
                         get fit and stay fit!</p>
-                    <button class="join-btn">Join Club Now!</button>
-                    <button class="download-btn">Download App</button>
+                    <div class="button-container">
+                        <button class="join-btn">Join Club Now!</button>
+                        <button class="download-btn">Download App</button>
+                    </div>
                 </div>
-                <div>
-                    <img src="./resources/hero.png" alt="">
+                <div class="hero-img">
+                    <img class="hero-img" src="./resources/hero.png" alt="">
+                    <button id="tutorial1" class="overlay-button1">
+                        <span class="heading">350+</span>
+                        <br>
+                        <span class="paragraph">Video tutorial</span>
+                    </button>
+                    <button id="tutorial2" class="overlay-button2">
+                        <span class="heading">500+</span>
+                        <br>
+                        <span class="paragraph">Free Workout videos</span>
+                    </button>
                 </div>
             </div>
         </div>
+
+        <!-- Change Your Habits Section -->
+        <div class="habits">
+        </div>
     </header>
+
+
+    <!-- Habit Section start -->
+    <section class="container">
+        <div class="habit-text">
+            <h1>Change Your Habits</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            </p>
+        </div>
+        <div class="habits-container">
+            <div class="habit">
+                <div>
+                    <img src="./resources/image 2.png" alt="">
+                </div>
+                <div>
+                    <h4>Movement</h4>
+                    <p>We believe fitness should be accessible to everyone</p>
+                </div>
+            </div>
+            <div class="habit">
+                <div>
+                    <img src="./resources/image 3.png" alt="">
+                </div>
+                <div>
+                    <h4>Time</h4>
+                    <p>We believe fitness should be accessible to everyone</p>
+                </div>
+            </div>
+            <div class="habit">
+                <div>
+                    <img src="./resources/image 4.png" alt="">
+                </div>
+                <div>
+                    <h4>Practice</h4>
+                    <p>We believe fitness should be accessible to everyone</p>
+                </div>
+            </div>
+            <div class="habit">
+                <div>
+                    <img src="./resources/image 5.png" alt="">
+                </div>
+                <div>
+                    <h4>Weight Loss</h4>
+                    <p>We believe fitness should be accessible to everyone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Habit Section end -->
+
 
 </body>
 
