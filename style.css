@@ -304,6 +304,67 @@ body {
 
 /* Habit Section End */
 
+/* Run a Mile Easily Section start */
+
+.mile-bg {
+    margin-top: 100px;
+}
+
+.mile {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 32px 29px 54px;
+    align-items: center;
+    gap: 165px;
+    border-radius: 18px;
+    background: #222;
+}
+
+.mile-text {
+    width: 40%;
+}
+
+.mile-text h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.mile-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 14px 0 34px 0;
+}
+
+
+
+.mile img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+.join-now-btn {
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #E6533C;
+    color: white;
+}
+
+/* Run a Mile Easily Section end */
+
 
 
 
@@ -346,5 +407,17 @@ body {
     }
 
     /* Habit Section end*/
+
+    /* Run a Mile Easily Section start */
+    .mile {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .mile-text {
+        width: 100%;
+    }
+
+    /* Run a Mile Easily Section End */
 
 }
