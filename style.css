@@ -172,6 +172,7 @@ body {
     border: 1px solid #FFF;
     color: white;
     margin-left: 14px;
+    background-color: ;
 }
 
 .overlay-button1 {
@@ -366,6 +367,284 @@ body {
 /* Run a Mile Easily Section end */
 
 
+/* BMI Calulator start */
+.bmi-calculator {
+    margin-top: 100px;
+}
+
+.bmi-text {
+    width: 60%;
+    text-align: left;
+    margin-bottom: 80px;
+
+}
+
+.bmi-text h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.bmi-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+}
+
+.bmi-left h2 {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 3rem;
+}
+
+.bmi-text h2 {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.bmi-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+
+.bmi-section {
+    background: #222;
+    padding: 50px 0;
+}
+
+.bmi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* table */
+.bmi-table-container {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi-table th,
+.bmi-table td {
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    text-align: left;
+}
+
+.bmi-table th {
+    background-color: #3a3a3a;
+}
+
+.bmi-table td {
+    background-color: #2b2b2b;
+}
+
+.bmi-table tr:nth-child(even) td {
+    background-color: #333333;
+}
+
+/* form */
+
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group input,
+.form-group select {
+    background-color: #3a3a3a;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    flex: 1;
+}
+
+button {
+    background-color: #ff5733;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 224px;
+    padding: 16px 40px;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #e04e2a;
+}
+
+
+
+/* BMI Calulator end */
+
+
+/* Meet our team section start */
+.team-text {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.team-text h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.team-text p {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    padding: 20px 5px 20px 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Meet our team section end */
+
+/* footer start */
+.footer-section {
+    margin-top: 5rem;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 4rem 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+}
+
+.fitness-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.fitness-header {
+    color: #E6533C;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 1.2rem;
+}
+
+.started-one h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 2rem;
+}
+
+.started-one ul li {
+    color: rgba(255, 255, 255, 0.50);
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 1.3rem;
+}
+
+
+.footer-line {
+    border-top: 1px solid #444;
+    /* Dark gray color for the line */
+    margin: 20px 0;
+    margin: 5rem auto 2rem auto;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+/* footer end */
+
+
 
 
 /* responsive media query */
@@ -419,5 +698,23 @@ body {
     }
 
     /* Run a Mile Easily Section End */
+
+    /* bmi start */
+    .bmi {
+        flex-direction: column;
+    }
+
+    .bmi-left {
+        text-align: left;
+    }
+
+    /* bmi end */
+
+    /* meet our team section start */
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* meet our team section end */
 
 }
