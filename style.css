@@ -52,6 +52,13 @@ table {
     font-optical-sizing: auto;
 }
 
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
 
 /* common style */
 body {
@@ -86,7 +93,7 @@ body {
 
 .menu-icon {
     display: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -96,7 +103,7 @@ body {
 
 .nav-flex li a {
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
 }
@@ -141,7 +148,7 @@ body {
 
 .hero-section h1 {
     color: #FFF;
-    font-size: 78px;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 900;
     line-height: 120%;
@@ -574,6 +581,80 @@ button:hover {
 
 /* Meet our team section end */
 
+/* subscription start */
+.subscription-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Individual subscription card */
+.subscription-text {
+    text-align: center;
+    margin: 4rem auto 3rem auto;
+}
+
+.subscription-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.subscription-text p {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.subscription-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.subscription-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.subscription-card p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #ff6f61;
+}
+
+.subscription-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.subscription-card ul li {
+    margin: 10px 0;
+}
+
+.subscription-card button {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* subscription end */
+
+
+
+
 /* footer start */
 .footer-section {
     margin-top: 5rem;
@@ -719,6 +800,13 @@ button:hover {
     }
 
     /* meet our team section end */
+
+    /* subscription start */
+    .subscription-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* subscription end */
 
     /* footer start */
     .footer-container {
