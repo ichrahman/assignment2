@@ -163,6 +163,8 @@ body {
     gap: 10px;
     border-radius: 42px;
     background: #E6533C;
+    white-space: nowrap;
+
 }
 
 .download-btn {
@@ -172,7 +174,8 @@ body {
     border: 1px solid #FFF;
     color: white;
     margin-left: 14px;
-    background-color: ;
+    background-color: transparent;
+    white-space: nowrap;
 }
 
 .overlay-button1 {
@@ -716,5 +719,13 @@ button:hover {
     }
 
     /* meet our team section end */
+
+    /* footer start */
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* footer end */
 
 }
